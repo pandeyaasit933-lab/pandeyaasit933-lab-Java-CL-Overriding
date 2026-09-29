@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/DogTest.java",
+      "testCases": [
+        {
+          "methodName": "noiseTestDog",
+          "label": "Verify base Dog sound is 'Woof'",
+          "description": "Creates a Dog instance and checks that sound() returns \"Woof\"."
+        },
+        {
+          "methodName": "noiseTestShiba",
+          "label": "Verify Shiba overrides Dog sound",
+          "description": "Creates a Shiba instance (a subclass of Dog) and verifies that its sound() method does not return \"Woof\"."
+        }
+      ]
+    }
+  ]
+}
